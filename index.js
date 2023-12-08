@@ -105,10 +105,15 @@ var numberOfMonths = finances.length;
 
 console.log(`This PnL dataset contains ${numberOfMonths} months.`);
 
+alert(`This PnL dataset contains ${numberOfMonths} months.`)
+
 console.log(finances[0][0]);
 
-for (var = i; i < finances.length; i++) {
-  console.log{}
+for (var i = 0; i < finances.length; i++) {
+  console.log(`The current row is ${finances[0][i]}`);
 }
 
+alert(`Financial Analysis`);
+alert(`----------------`);
+alert(`Total Months: ${numberOfMonths}`);
 // var netPnL = finances.map
