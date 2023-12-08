@@ -107,11 +107,20 @@ console.log(`This PnL dataset contains ${numberOfMonths} months.`);
 
 alert(`This PnL dataset contains ${numberOfMonths} months.`)
 
+// The code below tests that the program is able to read the
+// element/data entry item in the 1st row & 1st column.
+
 console.log(finances[0][0]);
 
+var sum = 0;
+
+alert(`Starting PnL is ${sum}.`)
+
 for (var i = 0; i < finances.length; i++) {
-  console.log(`The current row is ${finances[0][i]}`);
+  sum += finances[i][1];
 }
+
+console.log(`The net total of Profit/Losses (PnL) is ${sum}.`)
 
 alert(`Financial Analysis`);
 alert(`----------------`);
