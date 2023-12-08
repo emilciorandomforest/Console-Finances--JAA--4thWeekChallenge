@@ -1,4 +1,7 @@
+// The line below checks that this index.js file is linked to the index.html file. 
 console.log(`ding`);
+
+// The 2-column array below features the PnL dataset to be used in this 4th week challenge.
 
 var finances = [
   ['Jan-2010', 867884],
@@ -88,3 +91,24 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// The variable and console log below
+// (1) Creates a variable that determines the 
+// number of months in the dataset, where finances.length 
+// is equal to the number of rows i.e. months.
+
+var numberOfMonths = finances.length;
+
+// (2) Creates a Console log in the browswer window that 
+// tells the user how many months are located in the
+// PnL dataset.
+
+console.log(`This PnL dataset contains ${numberOfMonths} months.`);
+
+console.log(finances[0][0]);
+
+for (var = i; i < finances.length; i++) {
+  console.log{}
+}
+
+// var netPnL = finances.map
