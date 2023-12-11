@@ -122,6 +122,17 @@ for (var i = 0; i < finances.length; i++) {
 
 console.log(`The net total of Profit/Losses (PnL) is ${sum}.`)
 
+// typeof(numberOfMonths);
+
+var gaps = (`${numberOfMonths}`-1)
+console.log (`${gaps}`)
+
+console.log(`typeof${numberOfMonths}`)
+
+var averagePnLChanges = parseFloat(sum/(`${numberOfMonths}`-1));
+
+console.log(`The total change in Profit/Losses from month to month are ${averagePnLChanges}.`)
+
 alert(`Financial Analysis`);
 alert(`----------------`);
 alert(`Total Months: ${numberOfMonths}`);
