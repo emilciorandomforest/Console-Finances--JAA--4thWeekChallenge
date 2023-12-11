@@ -129,9 +129,23 @@ console.log (`${gaps}`)
 
 console.log(`typeof${numberOfMonths}`)
 
+// The code below places 
+
 var averagePnLChanges = parseFloat(sum/(`${numberOfMonths}`-1));
 
 console.log(`The total change in Profit/Losses from month to month are ${averagePnLChanges}.`)
+
+// The code below details the greatest increase in Profit/LOsses (date and amount) over the entire period.
+
+var gap = 0
+
+var secondNumber = finances[i+1][1];
+var firstNumber = finances[i][1];
+
+let arr = [];
+for (var i = 0; i < finances.length; i++) {
+  arr = (`${secondNumber}-${firstNumber}`);
+}
 
 alert(`Financial Analysis`);
 alert(`----------------`);
